@@ -1,0 +1,6 @@
+{
+    "prompt": "USER: ...",
+    "chosen": "ASSISTANT: good answer",
+    "rejected": "ASSISTANT: bad answer"
+  }
+  

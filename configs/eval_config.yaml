@@ -1,0 +1,10 @@
+model_name_or_path: "outputs/dpo-qwen2.5-3b"
+eval_file: "data/raw/eval_reasoning.jsonl"
+max_input_length: 768
+max_new_tokens: 512
+batch_size: 2
+output_file: "outputs/eval/reasoning_eval.jsonl"
+
+# simple rule-based scoring
+keyword_match: true
+exact_match: false

@@ -1,0 +1,5 @@
+{
+  "id": "sample-1",
+  "input": "Question / instruction",
+  "reference": "Expected answer (for simple metrics)"
+}
