@@ -22,16 +22,23 @@ pip install -r requirements.txt
 
 ### 2. Run SFT
 
-bash scripts/run_sft.sh
+```bash 
+scripts/run_sft.sh
+```
 
 ### 3. Run DPO
 
-bash scripts/run_dpo.sh
+```bash 
+scripts/run_dpo.sh
+```
 
 ### 4. Run Eval
 
-bash scripts/run_eval.sh
+```bash 
+scripts/run_eval.sh
+```
 
+```bash 
 llm-post-training/
 ├── README.md
 ├── requirements.txt
@@ -65,3 +72,4 @@ llm-post-training/
         │   └── train_dpo.py
         └── eval
             └── eval_reasoning.py
+```
